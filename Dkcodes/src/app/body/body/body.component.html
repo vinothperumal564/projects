@@ -1,0 +1,95 @@
+  <div class="product-name" id="bodyContainer1">
+    Poco smartphones
+   </div>
+   <div class="product-container" *ngFor="let product of products">
+    <div class="product-card">
+      <img src="{{product.img}}" alt="Product Image" class="product-image" />
+      <div class="product-info">
+        <h2 class="product-title">{{product.mobileName}}</h2>
+        <div class="product-rating">
+          ⭐ 4.2 <span>{{product.ratings}}</span>
+        </div>
+        <div class="product-price">
+         {{product.disPrice}} <span class="original-price">₹{{product.price}}</span>
+          <span class="discount">{{product.disPercentage}}off</span>
+        </div>
+      </div>
+    </div>  
+   </div>
+
+    <div class="product-name" id="bodyContainer2">
+      Vivo smartphones
+     </div>
+     <div class="product-container" *ngFor="let product of products2">
+      <div class="product-card">
+        <img src="{{product.img}}" alt="Product Image" class="product-image" />
+        <div class="product-info">
+          <h2 class="product-title">{{product.mobileName}}</h2>
+          <div class="product-rating">
+            ⭐ 4.2 <span>{{product.ratings}}</span>
+          </div>
+          <div class="product-price">
+           {{product.disPrice}} <span class="original-price">₹{{product.price}}</span>
+            <span class="discount">{{product.disPercentage}} off</span>
+          </div>
+        </div>
+      </div> 
+    </div>
+     
+    <div class="product-name" id="bodyContainer3">
+      Motorola smartphones
+     </div>
+     <div class="product-container" *ngFor="let product of products3">
+      <div class="product-card">
+        <img src="{{product.img}}" alt="Product Image" class="product-image" />
+        <div class="product-info">
+          <h2 class="product-title">{{product.mobileName}}</h2>
+          <div class="product-rating">
+            ⭐ 4.2 <span>{{product.ratings}}</span>
+          </div>
+          <div class="product-price">
+           {{product.disPrice}} <span class="original-price">₹{{product.price}}</span>
+            <span class="discount">{{product.disPercentage}} off</span>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+      <div class="product-name" id="bodyContainer4">
+        Samsung smartphones
+       </div>
+       <div class="product-container" *ngFor="let product of products4">
+        <div class="product-card">
+          <img src="{{product.img}}" alt="Product Image" class="product-image" />
+          <div class="product-info">
+            <h2 class="product-title">{{product.mobileName}}</h2>
+            <div class="product-rating">
+              ⭐ 4.2 <span>{{product.ratings}}</span>
+            </div>
+            <div class="product-price">
+             {{product.disPrice}} <span class="original-price">₹{{product.price}}</span>
+              <span class="discount">{{product.disPercentage}} off</span>
+            </div>
+          </div>
+        </div> 
+        </div>
+
+        <div class="product-name" id="bodyContainer5">
+          Apple smartphones
+         </div>
+         <div class="product-container" *ngFor="let product of products5">
+          <div class="product-card">
+            <img src="{{product.img}}" alt="Product Image" class="product-image" />
+            <div class="product-info">
+              <h2 class="product-title">{{product.mobileName}}</h2>
+              <div class="product-rating">
+                ⭐ 4.2 <span>{{product.ratings}}</span>
+              </div>
+              <div class="product-price">
+               {{product.disPrice}} <span class="original-price">₹{{product.price}}</span>
+                <span class="discount">{{product.disPercentage}} off</span>
+              </div>
+            </div>
+          </div> 
+        </div>
+  

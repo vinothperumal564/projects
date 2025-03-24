@@ -1,0 +1,22 @@
+<div class="navContainer">
+<nav>
+    <div class="logo"><a href="#">SMILE :)</a></div>
+    <ul>
+        <li><a href="#headerContainer" (click)="save()" *ngIf="hidden">Home</a></li>
+        <div class="dropdown">
+            <button class="dropdown-btn">Product</button>
+            <div class="dropdown-content">
+              <a href="#bodyContainer1" (click)="click()">poco smartphones</a>
+              <a href="#bodyContainer2" (click)="click()">vivo smartphones</a>
+              <a href="#bodyContainer3" (click)="click()">moto smartphones</a>
+              <a href="#bodyContainer4" (click)="click()">samsung phones</a>
+              <a href="#bodyContainer5" (click)="click()">apple smartphones</a>
+            </div>
+          </div>
+          <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <span><img src="assets/eye.jpg" alt="joker"></span>
+    </ul>
+  
+</nav>
+</div>

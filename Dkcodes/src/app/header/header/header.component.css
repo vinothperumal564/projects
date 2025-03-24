@@ -1,0 +1,22 @@
+.header{
+    font-weight: bold;
+     padding: 150px 4% 0px;
+}
+  .content {
+    text-align: justify; 
+    text-indent: 15ch; 
+    padding: 40px 10px;
+  }
+
+  #headerContainer {
+    background-image: url('/assets/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 50px;
+  } 
+  
+  
